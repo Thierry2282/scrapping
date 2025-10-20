@@ -98,6 +98,6 @@ class WebScraper:
 
 # Exécution principale
 if __name__ == '__main__':
-    scraper = WebScraper('https://univ-vakinankaratra.mg/')
+    scraper = WebScraper('https://www.example.com/')
     scraper.scrape(scraper.start_url)
     scraper.export_to_json()
